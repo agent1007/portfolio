@@ -1,0 +1,33 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/inter.css);
+@import url(./components/Body/body.css);
+
+@import url(./components/Promo/promo.css);
+@import url(./components/Promo/__button/promo__button.css);
+@import url(./components/Promo/__subtitle/promo__subtitle.css);
+@import url(./components/Promo/__title/promo__title.css);
+
+
+
+@import url(./components/Header/__container/_title/header__container_title.css);
+@import url(./components/Header/__container/header__container.css);
+@import url(./components/Header/__text/header__text.css);
+@import url(./components/Header/__title/_margin/header__title_margin.css);
+@import url(./components/Header/__title/header__title.css);
+@import url(./components/Header/header.css);
+@import url(./components/Header/__logo/header__logo.css);
+
+
+@import url(./components/Project/project.css);
+@import url(./components/Project/__image/project__image.css);
+@import url(./components/Project/__link/project__link.css);
+@import url(./components/Projects/projects.css);
+@import url(./components/Project/__title/project__title.css);
+
+@import url(./components/Footer/__container/footer__container.css);
+@import url(./components/Footer/__copyright/footer__copyright.css);
+@import url(./components/Footer/__link/footer__link.css);
+@import url(./components/Footer/__links/footer__links.css);
+@import url(./components/Footer/__title/footer__title.css);
+@import url(./components/Footer/footer.css);
+

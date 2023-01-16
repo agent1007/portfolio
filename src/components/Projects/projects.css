@@ -1,0 +1,6 @@
+.projects {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;  
+    background: #202020;
+}
