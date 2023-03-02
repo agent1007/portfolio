@@ -39,12 +39,12 @@ const Project = [
     },
     {
         img: russianTravel,
-        url: "https://agent1007.github.io/booking-tickets/",
+        url: "https://agent1007.github.io/russian-travel/index.html",
         id: 7
     },
     {
         img: bookingTickets,
-        url: "https://agent1007.github.io/authentication/",
+        url: "https://agent1007.github.io/booking-tickets/",
         id: 8
     }
 ]

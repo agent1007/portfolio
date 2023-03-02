@@ -1,13 +1,17 @@
-
 import Header from '../Header/Header';
 
 function Promo() {
   return (
     <section className="promo">
       <Header />
-      <h2 className="promo__title">Павел Черкасов</h2>
-      <h3 className="promo__subtitle">Привет, я Веб разработчик.</h3>
-      <button className="promo__button">Посмотреть мои проекты</button>
+      <div className="promo__container">
+        <h2 className="promo__title">Привет, я Павел Черкасов.</h2>
+        <h3 className="promo__subtitle">Этот сайт моё потрфолио.</h3>
+        <h3 className="promo__subtitle promo__subtitle_delay">Хочешь посмотреть мои проекты?</h3>
+        <div className="promo__button"><a className="promo__link"  href="#work">Жми сюда!</a></div>
+        {/* <div className="promo__image" ></div> */}
+      </div>
+
     </section>
   );
 }

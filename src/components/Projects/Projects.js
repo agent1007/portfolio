@@ -5,6 +5,7 @@ function Projects() {
 
     return (
         <section className="projects">
+            <a name="work"></a>
            <Project />
         </section>
     );

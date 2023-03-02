@@ -1,3 +1,46 @@
 .promo__subtitle {
     z-index: 2;
+    color: #000000;
+    margin: 0;
+    font-family: font-file-82132;
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    width: 24ch;
+    font-family: monospace;
+    font-size: 30px;
+    white-space: nowrap; /* не переносить текст на другую строку */
+    overflow: hidden; /* скрываем переполнение контентом */
+    border-right: 3px solid rgb(0, 0, 0); /* рисуем курсор */
+    animation: cursor 0.75s step-end 12 forwards, printed_text 3s steps(24) 4.5s, showDiv 4.6s forwards;
+  }
+  
+  @keyframes cursor {
+    0% {
+      border-color: rgb(0, 0, 0);
+    }
+  
+    50% {
+        border-color: transparent;
+      }
+  
+    100% {
+      border-color: rgb(255, 255, 255);
+    }
+  }
+  
+  @keyframes printed_text {
+    from {
+      width: 0;
+    }
+  }
+
+  @keyframes showDiv {
+    0%,
+    99% {
+        max-height: 0;
+    }
+    100% {
+        max-height: 999px;
+    }
 }

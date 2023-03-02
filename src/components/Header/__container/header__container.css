@@ -1,8 +1,9 @@
 .header__container {
-    margin-right: 300px;
+    margin-right: 100px;
+    margin-top: 80px;
     display: grid;
     grid-template-columns: repeat(5, max-content);
-    column-gap: 20px;
+    column-gap: 60px;
     justify-content: start; 
 }
 

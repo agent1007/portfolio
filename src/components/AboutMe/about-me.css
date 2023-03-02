@@ -1,0 +1,19 @@
+.about-me{
+    padding: 50px 0 20px;
+    max-width: 100%;
+    background-color: #ffffff;
+    border-top: 3px black solid;
+    border-bottom: 3px black solid;
+}
+
+@media screen and (max-width: 910px) {    
+    .about-me {
+        padding: 80px 0 53px;
+    }
+}
+
+@media screen and (max-width: 400px) {    
+    .about-me {
+        padding-top: 40px;
+    }
+}

@@ -1,3 +1,24 @@
 .promo__button {
     z-index: 2;
+    position: relative;
+    margin-top: 70px;
+    margin-left: 160px;
+    width: 200px;
+    height: 50px;
+    white-space: nowrap; /* не переносить текст на другую строку */
+    overflow: hidden; /* скрываем переполнение контентом */
+    animation: showDiv  13.6s 1 forwards ;
+    border: 0;
+    background-color: #ffffff;
+
+  }
+  
+  @keyframes showDiv {
+    0%,
+    99% {
+        color: #ffffff;
+    }
+    100% {
+        height: 50px;
+    }
 }

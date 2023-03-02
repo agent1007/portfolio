@@ -19,7 +19,7 @@
     
 } */
 
-.project__link::before {
+/* .project__link::before {
     content: "";
     position: absolute;
     top: 0;
@@ -34,4 +34,4 @@
   
   .project__link:hover::before {
     transform: translateX(0);
-  }
+  } */
