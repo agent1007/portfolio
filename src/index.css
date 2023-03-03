@@ -6,7 +6,6 @@
 @import url(./components/Promo/__button/promo__button.css);
 @import url(./components/Promo/__subtitle/promo__subtitle.css);
 @import url(./components/Promo/__title/promo__title.css);
-@import url(./components/Promo/__image/promo__image.css);
 @import url(./components/Promo/__container/promo__container.css);
 @import url(./components/Promo/__subtitle/_delay/promo__subtitle_delay.css);
 @import url(./components/Promo/__link/promo__link.css);
@@ -19,7 +18,6 @@
 @import url(./components/Header/__title/_margin/header__title_margin.css);
 @import url(./components/Header/__title/header__title.css);
 @import url(./components/Header/header.css);
-@import url(./components/Header/__logo/header__logo.css);
 
 
 @import url(./components/AboutMe/__description/about-me__description.css);
@@ -30,7 +28,6 @@
 @import url(./components/AboutMe/__profession/about-me__profession.css);
 @import url(./components/AboutMe/__profile-info/about-me__profile-info.css);
 @import url(./components/AboutMe/__profile/about-me__profile.css);
-@import url(./components/AboutMe/__title/about-me__title.css);
 @import url(./components/AboutMe/about-me.css);
 
 
@@ -41,11 +38,13 @@
 @import url(./components/Project/__title/project__title.css);
 
 @import url(./components/Skills/skills.css);
-@import url(./components/Skill/__parallelogram/skill__parallelogram\ .css);
-@import url(./components/Skill/__square/skill__square.css);
+@import url(./components/Skills/__container/skills__container.css);
+@import url(./components/Skill/__image/skill__image.css);
+@import url(./components/Skill/__text/skill__text.css);
+@import url(./components/Skill/__title/skill__title.css);
 @import url(./components/Skill/skill.css);
 
-
+@import url(./components/Title/title.css);
 
 
 

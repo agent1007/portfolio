@@ -2,5 +2,6 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;  
-    background: #202020;
+    background: #959494;
+    min-height: 750px;
 }

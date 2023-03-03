@@ -1,0 +1,29 @@
+.skill {
+    width: 300px;
+    height: 320px;
+    background-color: #e8e8e8;
+    -webkit-box-shadow: 10px 7px 25px 2px rgb(0 0 0 / 40%);
+    box-shadow: 10px 7px 25px 2px rgb(0 0 0 / 40%);
+    text-align: center;
+    margin: 0 50px 30px;
+    position: relative;
+}
+
+.skill:before {
+    content: "";
+    background-color: rgba(35, 35, 35, .9);
+    position: absolute;
+    background-position: center;
+    top: -2px;
+    left: -2px;
+    right: -3px;
+    bottom: -2px;
+    z-index: -1;
+    transform: skew(2deg, 2deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.skill:hover:before {
+    transform: skew(0);
+    background: rgb(70, 70, 255);
+}

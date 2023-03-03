@@ -1,5 +1,3 @@
-import { Link  } from 'react-router-dom';
-import logo from '../../images/icon-header.png';
 
 function Header() {
 
@@ -7,12 +5,11 @@ function Header() {
 
     return (
         <section className="header">
-            {/* <img className="header__logo" src={logo} alt="Картинка"/> */}
             <div className="header__container">
-                <Link to="/Projects" className="header__title">Проекты</Link>
-                <Link to="/About-Me" className="header__title">Обо мне</Link>
-                <Link to="/Skills" className="header__title">Скиллы</Link>
-                
+                <a className="header__title" href="#projects">Проекты</a>
+                <a className="header__title" href="#about-me">Обо мне</a>
+                <a className="header__title" href="#skills">Скиллы</a>
+                <a className="header__title" href="#footer">Контакты</a>
             </div>
         </section>
     );

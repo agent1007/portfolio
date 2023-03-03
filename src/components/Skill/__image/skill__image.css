@@ -1,0 +1,15 @@
+.skill__image {
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+.skill:hover .skill__image {
+    transform: rotate(360deg);
+}

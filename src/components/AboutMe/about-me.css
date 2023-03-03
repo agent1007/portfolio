@@ -1,9 +1,10 @@
 .about-me{
-    padding: 50px 0 20px;
+    padding: 150px 0 20px;
     max-width: 100%;
     background-color: #ffffff;
     border-top: 3px black solid;
     border-bottom: 3px black solid;
+    height: 69vh;
 }
 
 @media screen and (max-width: 910px) {    
