@@ -47,7 +47,11 @@
 @import url(./components/Title/title.css);
 
 
-
+@import url(./components/Contacts/__container/contacts__container.css);
+@import url(./components/Contacts/__image/contacts__image.css);
+@import url(./components/Contacts/__text/contacts__text.css);
+@import url(./components/Contacts/__title/contacts__title.css);
+@import url(./components/Contacts/contacts.css);
 
 
 @import url(./components/Footer/__container/footer__container.css);

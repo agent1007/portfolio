@@ -1,0 +1,10 @@
+.contacts__text {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+}

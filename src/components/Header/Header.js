@@ -9,7 +9,7 @@ function Header() {
                 <a className="header__title" href="#projects">Проекты</a>
                 <a className="header__title" href="#about-me">Обо мне</a>
                 <a className="header__title" href="#skills">Скиллы</a>
-                <a className="header__title" href="#footer">Контакты</a>
+                <a className="header__title" href="#contacts">Контакты</a>
             </div>
         </section>
     );

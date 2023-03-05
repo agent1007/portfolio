@@ -1,0 +1,11 @@
+.contacts__container {
+    width: 240px;
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    column-gap: 10px;
+    margin-bottom: 15px;
+}
+
+.contacts__container:last-of-type{
+    margin-bottom: 0;
+}
