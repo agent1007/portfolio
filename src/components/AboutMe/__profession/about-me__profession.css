@@ -10,16 +10,12 @@
     .about-me__profession {
         font-size: 12px;
         line-height: 18px;
-        margin: 0;
+        margin: 0 0 10px;
     }
 }
 
-@media screen and (max-width: 400px) {    
+@media screen and (max-width: 426px) {    
     .about-me__profession {
-        font-weight: 500;
-        font-size: 11px;
-        line-height: 16px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        font-size: 18px;
     }
 }

@@ -3,3 +3,10 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 769px) {    
+    .skills__container {
+        flex-direction: column;
+        margin-top: 0;
+    }
+}

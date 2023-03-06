@@ -1,8 +1,26 @@
 .project {
-    width: 23%;
+    width: 340px;
     max-height: 350px;
     display: flex;
     flex-direction: column;
     margin: 20px 15px;
     position: relative;
+}
+
+@media screen and (max-width: 1441px) {
+    .project {
+        width: 330px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .project {
+        width: 310px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .project {
+        margin: 10px 10px;
+    }
 }

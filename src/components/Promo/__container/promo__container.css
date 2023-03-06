@@ -1,5 +1,24 @@
 .promo__container {
     position: absolute;
-    top: 110px;
-    left: 120px;
+    top: 14%;
+    left: 8%;
+}
+
+@media screen and (max-width: 1441px) {
+    .promo__container {
+        top: 15%;
+        left: 6%;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .promo__container {
+        left: 15%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .promo__container {
+        left: 10%;
+    }
 }

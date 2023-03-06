@@ -12,13 +12,11 @@
 
 @media screen and (max-width: 769px) {    
     .about-me__image {
-        background-size: contain;
-        width: 255px;
-        height: 307px;
+        margin-left: 0;
     }
 }
 
-@media screen and (max-width: 400px) {    
+@media screen and (max-width: 426px) {    
     .about-me__image {
         width: 292px;
         height: 352px;

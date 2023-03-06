@@ -11,3 +11,9 @@
         margin-top: 56px;
     }
 }
+
+@media screen and (max-width: 426px) {    
+    .about-me__links {
+        margin-top: 40px;
+    }
+}

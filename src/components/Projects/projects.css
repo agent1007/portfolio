@@ -4,4 +4,5 @@
     flex-wrap: wrap;  
     background: #959494;
     min-height: 750px;
+    justify-content: center;
 }

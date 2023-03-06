@@ -27,3 +27,9 @@
     transform: skew(0);
     background: rgb(70, 70, 255);
 }
+
+@media screen and (max-width: 769px) {
+    .skill {
+        margin-bottom: 50px;
+    }
+}
