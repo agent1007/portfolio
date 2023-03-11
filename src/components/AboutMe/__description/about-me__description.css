@@ -21,3 +21,9 @@
         text-align: justify;
     }
 }
+
+@media screen and (max-width: 321px) {
+    .about-me__description {
+        width: 90%;
+    }
+}

@@ -33,3 +33,10 @@
         margin-bottom: 50px;
     }
 }
+
+@media screen and (max-width: 321px) {
+    .skill {
+        width: 250px;
+        height: 270px;
+    }
+}

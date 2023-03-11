@@ -22,3 +22,10 @@
         left: 10%;
     }
 }
+
+@media screen and (max-width: 376px) {
+    .promo__container {
+        width: 80%;
+        left: 10%;
+    }
+}

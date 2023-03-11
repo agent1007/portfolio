@@ -27,3 +27,10 @@
         margin-left: 125px;
     }
 }
+
+@media screen and (max-width: 376px) {
+    .promo__button {
+        width: 100px;
+        margin-left: 85px;
+    }
+}

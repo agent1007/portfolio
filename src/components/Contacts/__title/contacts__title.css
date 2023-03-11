@@ -2,3 +2,10 @@
     font-size: 22px;
     font-weight: 700;
 }
+
+@media screen and (max-width: 321px) {
+    .contacts__title {
+        font-size: 18px;
+        font-weight: 500;
+    }
+}

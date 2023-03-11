@@ -17,3 +17,9 @@
         margin-top: 40px;
     }
 }
+
+@media screen and (max-width: 321px) {    
+    .about-me__links {
+        margin-top: 15px;
+    }
+}

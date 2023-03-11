@@ -55,3 +55,15 @@
     font-size: 20px;
   }
 }
+
+@media screen and (max-width: 376px) {
+  .promo__subtitle {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .promo__subtitle {
+    font-size: 16px;
+  }
+}
